@@ -1,0 +1,147 @@
+. {
+    margin: 0px
+    padding: 0px
+}
+
+p {
+    position: absolute;
+    left: 40%
+}
+
+body {
+    background-color: #E6EFF6
+}
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    height: 25rem;
+    width: 50rem;
+    position: absolute;
+    left: 29%;
+    top: 20%;
+}
+
+.grid-item {
+  padding: 40px;
+  font-size: 30px;
+
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: #fff;
+}
+
+.item2 {
+    background-color: #2BB3B1;
+}
+
+.item3 {
+    background-color: #4ABDBD;
+}
+
+.card-title {
+    font-size: 28px;
+    color: #41AFAE;
+    padding: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.card-subtitle {
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    color: #C6D963;
+    padding: 5px;
+    line-height: 35px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: gray;
+    padding: 5px;
+}
+
+.card-title2 {
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
+.price {
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    padding: 5px;
+    line-height: 35px;
+    display: inline-block;
+}
+
+#price-text {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: #65D6D4;
+}
+
+.card-text2 {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #BEDF32;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%
+}
+
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.card-title3 {
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
+.card-text3 {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
