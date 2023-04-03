@@ -12,20 +12,22 @@ body {
     background-color: #E6EFF6
 }
 
+.center {
+    margin: auto;
+    width: 45%;
+    padding: 10px;
+}
+
 .grid-container {
     display: grid;
-    padding: 10px;
     height: 25rem;
     width: 50rem;
-    position: absolute;
-    left: 29%;
-    top: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .grid-item {
   padding: 40px;
-  font-size: 30px;
-
+  border-radius: 4px;
 }
 
 .item1 {
@@ -105,7 +107,6 @@ body {
     width: 100px;
     cursor: pointer;
     position: absolute;
-    top: 100%
 }
 
 .button span {
